@@ -1,0 +1,73 @@
+//注意，以文件方式输入时，不需要输入指令总条数
+//第一关
+inbox
+outbox
+inbox
+outbox
+
+//第二关
+inbox
+copyto 0
+inbox
+copyto 1
+copyfrom 0
+sub 1
+outbox
+copyfrom 1
+sub 0
+outbox
+jump 1
+
+//第三关
+inbox
+copyto 0
+inbox
+copyto 0
+inbox
+copyto 0
+inbox
+outbox
+inbox
+copyto 0
+inbox
+copyto 0
+inbox
+copyto 0
+inbox
+outbox
+
+//第四关
+inbox
+copyto 0
+inbox
+sub 0
+copyto 0
+inbox
+sub 0
+sub 0
+sub 0
+sub 0
+copyto 0
+add 0
+add 0
+add 0
+add 0
+add 0
+add 0
+add 0
+add 0
+outbox
+copyfrom 0
+add 0
+add 0
+add 0
+add 0
+add 0
+add 0
+outbox
+copyfrom 0
+add 0
+add 0
+add 0
+add 0
+outbox

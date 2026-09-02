@@ -1,0 +1,48 @@
+# Visual Studio / VS Code
+.vs/
+.vscode/
+**/.vs/
+**/*.suo
+**/*.user
+**/*.vcxproj.user
+
+# Build outputs
+**/x64/
+**/Debug/
+**/Release/
+**/*.obj
+**/*.pdb
+**/*.idb
+**/*.ilk
+**/*.tlog
+**/*.log
+**/*.recipe
+
+# Local game state
+/code/src/levelpass.txt
+
+# Original submission materials and large media
+/Report.docx
+/提交文件说明.pdf
+/video/
+/大作业参考文献/
+/code/README.txt
+
+# Keep only the SFML components used by this project
+/code/sfml/SFML-2.6.2/doc/
+/code/sfml/SFML-2.6.2/examples/
+/code/sfml/SFML-2.6.2/changelog.md
+/code/sfml/SFML-2.6.2/lib/*
+!/code/sfml/SFML-2.6.2/lib/sfml-graphics.lib
+!/code/sfml/SFML-2.6.2/lib/sfml-graphics-d.lib
+!/code/sfml/SFML-2.6.2/lib/sfml-window.lib
+!/code/sfml/SFML-2.6.2/lib/sfml-window-d.lib
+!/code/sfml/SFML-2.6.2/lib/sfml-system.lib
+!/code/sfml/SFML-2.6.2/lib/sfml-system-d.lib
+/code/sfml/SFML-2.6.2/bin/*
+!/code/sfml/SFML-2.6.2/bin/sfml-graphics-2.dll
+!/code/sfml/SFML-2.6.2/bin/sfml-graphics-d-2.dll
+!/code/sfml/SFML-2.6.2/bin/sfml-window-2.dll
+!/code/sfml/SFML-2.6.2/bin/sfml-window-d-2.dll
+!/code/sfml/SFML-2.6.2/bin/sfml-system-2.dll
+!/code/sfml/SFML-2.6.2/bin/sfml-system-d-2.dll
